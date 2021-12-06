@@ -1,1 +1,39 @@
 /* Don't forget that media queries are required for this project */
+/* Please try to keep CSS in the order of the page. (Header at the top of this document, footer at the bottom, etc.) */
+h1 {
+    color:rgba(90, 150, 177, 1);
+    font-size: 96px;
+    height:180px;
+    font-family: Vollkorn;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height:134px;
+    justify-content: center;
+    margin: 0px 35px;
+}
+nav{
+    display: flex;
+    align-self: center;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    border: 1px solid #285B50;
+    width:280px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+nav a{
+    font-family: Zilla Slab;
+    font-size: 28px;
+    line-height: 40px;
+    text-decoration: none;
+    color: rgba(90, 150, 177, 1);
+
+}
