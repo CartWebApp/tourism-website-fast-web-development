@@ -3,7 +3,7 @@
 h1 {
     color:rgba(90, 150, 177, 1);
     font-size: 96px;
-    height:180px;
+    height:160px;
     font-family: Vollkorn;
     display: flex;
     align-items: center;
@@ -14,26 +14,51 @@ h1 {
 }
 nav{
     display: flex;
-    align-self: center;
+    align-items: center;
+    margin: 0px 15px;
+    justify-content: center;
 }
-nav ul{
+nav div{
+    margin: 0px;
     padding: 0px;
-    margin: 0px 40px;
     display: flex;
-    justify-content: space-between;
 }
-nav li{
+nav a:hover{
+    background-color:rgba(40, 91, 80, 1);
+    color:rgb(255, 248, 205);
+}
+nav a.active{
+    background-color:rgba(40, 91, 80, 1);
+    color:rgb(255, 248, 205);
+}
+nav a{
+    background-color: white;
     border: 1px solid #285B50;
-    width:280px;
+    width:19vw;
     list-style: none;
     align-items: center;
     text-align: center;
-}
-nav a{
+    display: block;
     font-family: Zilla Slab;
     font-size: 28px;
-    line-height: 40px;
+    line-height: 47px;
     text-decoration: none;
     color: rgba(90, 150, 177, 1);
-
+    padding:0px;
+    margin: 0px 2.5px;
+}
+nav .dropdown1content{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    margin-top: 49px;
+}
+.dropdown1{
+    flex-direction: column;
+}
+.dropdown1:hover .dropdown1content{
+    display: flex;
+}
+.dropdown1content a{
+    display: block;
 }
