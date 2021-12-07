@@ -1,1 +1,84 @@
 /* Please try to keep CSS in the order of the page. (Header at the top of this document, footer at the bottom, etc.) */
+main{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 97vw;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid #285B50;
+}
+main h2{
+    margin:15px;
+    color:#6997AA;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+}
+main p{
+    margin:0px;
+    color:#4A8EAA;
+    text-align: left;
+    font-family: Zilla Slab;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+article{
+    margin-top: 30px;
+    justify-content: center;
+    display:flex;
+}
+article img{
+    object-fit: cover;
+    align-self: stretch;
+    width:60vw;
+    height:375px;
+    border-radius: 5px;
+}
+article div{
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #285B50;
+    display:flex;
+    flex-direction: column;
+}
+article h3{
+    color:#285B50;
+    display: flex;
+    width:35vw;
+    font-family: Vollkorn;
+    font-size: 30px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-top:0px;
+    margin-bottom:0px;
+    justify-content: center;
+}
+article p{
+    margin-left:5px;
+    margin-right: 5px;
+    width:35vw;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+article a{
+    text-align: center;
+    width: 110px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    background-color: #9AC31E;
+    padding: 5px;
+    border-radius: 22px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
