@@ -22,18 +22,17 @@ main h2{
 }
 main p{
     text-align: justify;
-    margin:0px;
+    margin:15px;
     color:#4A8EAA;
     text-align: left;
     font-family: Zilla Slab;
     font-size: 24px;
     line-height: 29px;
-    margin-left:5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
 }
 article{
     margin-top: 30px;
+    margin-left:20px;
+    margin-right:20px;
     justify-content: center;
     display:flex;
 }
@@ -41,12 +40,11 @@ article img{
     object-fit: cover;
     align-self: stretch;
     width:60vw;
-    height:375px;
+    height:25vw;
     border-radius: 5px;
 }
 article div.main{
-    height: 375px;
-    margin-left: 5px;
+    margin-left: 20px;
     border-radius: 5px;
     border: 1px solid #285B50;
     display:flex;
@@ -54,24 +52,24 @@ article div.main{
     flex-wrap: wrap;
 }
 article h3{
+    justify-content: center;
     color:#285B50;
     display: flex;
     width:35vw;
     font-family: Vollkorn;
-    font-size: 30px;
-    line-height: 42px;
-    align-items: center;
+    font-size: 45px;
+    line-height: 40px;
     text-align: center;
-    margin-left:5px;
-    margin-right: 5px;
-    margin-top:0px;
-    margin-bottom:0px;
-    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom:10px;
 }
 article p{
+    font-size: 25px;
     margin-bottom: auto;
-    margin-left:5px;
-    margin-right: 5px;
+    margin-left:25px;
+    margin-right: 25px;
     width:35vw;
     margin-top:10px;
     align-self: stretch;
@@ -93,4 +91,7 @@ article div.stupid{
     display: flex;
     align-self: flex-end;
     justify-content: flex-end;
+}
+article:last-of-type{
+    margin-bottom: 30px;
 }
