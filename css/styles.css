@@ -46,6 +46,7 @@ nav a{
     color: rgba(90, 150, 177, 1);
     padding:0px;
     margin: 0px 2.5px;
+    transition-duration:0.25s;
 }
 nav .dropdowncontent{
     position: absolute;
