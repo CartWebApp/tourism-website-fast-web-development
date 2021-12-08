@@ -11,6 +11,9 @@ main{
     border: 1px solid #285B50;
 }
 main h2{
+    font-family: Zilla Slab;
+    font-style: italic;
+    font-weight: 300;
     margin:15px;
     color:#6997AA;
     text-align: center;
@@ -18,6 +21,7 @@ main h2{
     line-height: 36px;
 }
 main p{
+    text-align: justify;
     margin:0px;
     color:#4A8EAA;
     text-align: left;
@@ -26,6 +30,7 @@ main p{
     line-height: 29px;
     margin-left:5px;
     margin-right: 5px;
+    margin-bottom: 5px;
 }
 article{
     margin-top: 30px;
@@ -39,12 +44,14 @@ article img{
     height:375px;
     border-radius: 5px;
 }
-article div.articlecontent{
+article div.main{
+    height: 375px;
     margin-left: 5px;
     border-radius: 5px;
     border: 1px solid #285B50;
     display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 article h3{
     color:#285B50;
@@ -62,20 +69,16 @@ article h3{
     justify-content: center;
 }
 article p{
+    margin-bottom: auto;
     margin-left:5px;
     margin-right: 5px;
     width:35vw;
     margin-top:10px;
-    margin-bottom:0px;
-}
-article div.stupid{
-    display:flex;
-    align-self: flex-end;
-    justify-self: flex-end;
-    margin-bottom: 15px;
-    margin-right: 15px;
+    align-self: stretch;
 }
 article a{
+    margin-bottom: 15px;
+    margin-right: 15px;
     text-align: center;
     width: 110px;
     font-size: 22px;
@@ -84,4 +87,10 @@ article a{
     background-color: #9AC31E;
     padding: 5px;
     border-radius: 22px;
+}
+article div.stupid{
+    margin-bottom: 0px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
 }
