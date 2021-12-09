@@ -46,20 +46,25 @@ nav a{
     color: rgba(90, 150, 177, 1);
     padding:0px;
     margin: 0px 2.5px;
-    transition-duration:0.25s;
+    transition-duration:0.5s;
 }
 nav .dropdowncontent{
     position: absolute;
-    display: none;
+    overflow: hidden;
+    height:0px;
+    width:0px;
     flex-direction: column;
     margin-left: .5vw;
     margin-top: 50px;
+    display: flex;
+    transition: height .5s;
 }
 nav .dropdown{
     flex-direction: column;
 }
 nav .dropdown:hover .dropdowncontent{
-    display: flex;
+    height:150px;
+    width:auto;
 }
 nav .dropdowncontent a{
     width: 18vw;
