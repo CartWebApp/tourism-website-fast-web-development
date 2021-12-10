@@ -1,4 +1,5 @@
 /* Please try to keep CSS in the order of the page. (Header at the top of this document, footer at the bottom, etc.) */
+
 main{
     margin-left: auto;
     margin-right: auto;
@@ -11,6 +12,9 @@ main{
     border: 1px solid #285B50;
 }
 main h2{
+    font-family: Zilla Slab;
+    font-style: italic;
+    font-weight: 300;
     margin:15px;
     color:#6997AA;
     text-align: center;
@@ -18,17 +22,19 @@ main h2{
     line-height: 36px;
 }
 main p{
-    margin:0px;
+    text-align: justify;
+    margin:20px;
+    margin-bottom: 25px;
     color:#4A8EAA;
     text-align: left;
     font-family: Zilla Slab;
     font-size: 24px;
     line-height: 29px;
-    margin-left:5px;
-    margin-right: 5px;
 }
 article{
     margin-top: 30px;
+    margin-left:20px;
+    margin-right:20px;
     justify-content: center;
     display:flex;
 }
@@ -36,46 +42,43 @@ article img{
     object-fit: cover;
     align-self: stretch;
     width:60vw;
-    height:375px;
+    height:25vw;
     border-radius: 5px;
 }
-article div.articlecontent{
-    margin-left: 5px;
+article div.main{
+    margin-left: 20px;
     border-radius: 5px;
     border: 1px solid #285B50;
     display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 article h3{
+    justify-content: center;
     color:#285B50;
     display: flex;
     width:35vw;
     font-family: Vollkorn;
-    font-size: 30px;
-    line-height: 42px;
-    align-items: center;
+    font-size: 45px;
+    line-height: 40px;
     text-align: center;
-    margin-left:5px;
-    margin-right: 5px;
-    margin-top:0px;
-    margin-bottom:0px;
-    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom:10px;
 }
 article p{
-    margin-left:5px;
-    margin-right: 5px;
+    font-size: 25px;
+    margin-bottom: auto;
+    margin-left:25px;
+    margin-right: 25px;
     width:35vw;
     margin-top:10px;
-    margin-bottom:0px;
-}
-article div.stupid{
-    display:flex;
-    align-self: flex-end;
-    justify-self: flex-end;
-    margin-bottom: 15px;
-    margin-right: 15px;
+    align-self: stretch;
 }
 article a{
+    margin-bottom: 15px;
+    margin-right: 15px;
     text-align: center;
     width: 110px;
     font-size: 22px;
@@ -84,4 +87,13 @@ article a{
     background-color: #9AC31E;
     padding: 5px;
     border-radius: 22px;
+}
+article div.stupid{
+    margin-bottom: 0px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+article:last-of-type{
+    margin-bottom: 30px;
 }
