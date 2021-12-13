@@ -36,7 +36,7 @@ article div p{
     align-items: center;
     color: #5A96B1;
 }
-article p.gaming{
+article.gaming p{
     width: 90vw;
     margin:15px;
     font-family: Zilla Slab;
@@ -45,6 +45,8 @@ article p.gaming{
     display: flex;
     align-items: center;
     color: #5A96B1;
-    border-radius: 5px;
-    border: 1px solid #285B50;      
 }
+article.gaming{
+    border-radius: 5px;
+    border: 1px solid #285B50;
+}   

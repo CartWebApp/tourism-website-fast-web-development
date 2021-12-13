@@ -5,18 +5,18 @@ article{
     margin-right:20px;
     display: flex;
     flex-direction:row;
+  
+
 }
 article img{
     object-fit:cover;
-    width:45vw;
-   
-    height: 25vw;
-    margin: 30px;
+    width: 45vw;
+    height: auto;
+    margin: 0px 30px;
 }
 article div{
-
+    width:47vw;
     display: flex;
-  
     flex-direction: column;
     border-radius: 5px;
     border: 1px solid #285B50;
@@ -31,15 +31,16 @@ article div h2{
     color: #285B50;
 }
 article div p{
-
+    margin: 20px;
     font-family: Zilla Slab;
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 30px;
     display: flex;
     align-items: center;
     color: #5A96B1;
 }
 article p.malice{
+    margin-top: -
     width: 90vw;
     padding:15px;
     font-family: Zilla Slab;
@@ -63,4 +64,9 @@ article p.hatred{
     color: #5A96B1;
     border-radius: 5px;
     border: 1px solid #285B50;      
+}
+
+img.wrath {
+height: 30vw;
+
 }
