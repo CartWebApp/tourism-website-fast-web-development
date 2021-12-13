@@ -63,6 +63,7 @@ article h3{
     justify-content: center;
 }
 article.main p{
+    color:rgba(90, 150, 177, 1);
     font-size: 25px;
     margin-bottom: auto;
     margin-left:25px;
