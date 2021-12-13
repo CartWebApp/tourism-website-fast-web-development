@@ -9,34 +9,50 @@ article{
 article img{
     object-fit:cover;
     width:45vw;
+   
+    height: 25vw;
+    margin: 30px;
 }
 article div{
-    width:40vw;
-    height:10vw;
+
     display: flex;
-    margin-left: 20px;
+  
     flex-direction: column;
     border-radius: 5px;
     border: 1px solid #285B50;
 }
 article div h2{
     font-family: Vollkorn;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 35px;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
+    margin-top: 15px;
     color: #285B50;
 }
 article div p{
-    margin: 15px;
+
     font-family: Zilla Slab;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 35px;
     display: flex;
     align-items: center;
     color: #5A96B1;
 }
 article p.malice{
+    width: 90vw;
+    padding:15px;
+    font-family: Zilla Slab;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #5A96B1;
+    border-radius: 5px;
+    border: 1px solid #285B50;      
+}
+
+article p.hatred{
     width: 90vw;
     padding:15px;
     font-family: Zilla Slab;
