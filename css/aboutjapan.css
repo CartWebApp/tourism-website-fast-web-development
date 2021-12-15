@@ -1,0 +1,29 @@
+article{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-around;
+align-content: space-around;
+}
+
+article div p{
+   text-align: left;
+   border: 1px solid;
+}
+
+article div h2{
+text-align: center;
+font-size: 35px;
+
+}
+
+.centerText {
+    text-align: center;
+    color:   rgba(74, 142, 170, 1);
+    font-size: x-large;
+}
+
+.color{
+   color:  rgba(74, 142, 170, 1);
+   font-size: x-large;
+}
