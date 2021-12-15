@@ -8,17 +8,18 @@ article{
 }
 article img{
     object-fit:cover;
-    width:45vw;
+    width:30vw;
+    border-radius: 5px;
 }
 article div{
-    width:40vw;
+    width:60vw;
     display: flex;
     margin-left: 20px;
     flex-direction: column;
     border-radius: 5px;
     border: 1px solid #285B50;
 }
-article div h2{
+article h2{
     font-family: Vollkorn;
     font-size: 35px;
     line-height: 35px;
@@ -47,6 +48,10 @@ article.gaming p{
     color: #5A96B1;
 }
 article.gaming{
+
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
     border-radius: 5px;
     border: 1px solid #285B50;
 }   

@@ -1,5 +1,6 @@
 /* Don't forget that media queries are required for this project */
 /* Please try to keep CSS in the order of the page. (Header at the top of this document, footer at the bottom, etc.) */
+@media screen and (min-width: 993px) {
 h1 {
     color:rgba(90, 150, 177, 1);
     font-size: 96px;
@@ -17,6 +18,9 @@ nav{
     align-items: center;
     margin: 0px 15px;
     justify-content: center;
+}
+nav label.cringe, nav input.cringe {
+    display:none;
 }
 nav div{
     margin: 0px;
@@ -83,12 +87,13 @@ header img{
     margin-top:30px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     width:95vw;
     display: flex;
 }
 footer{
     margin: 15px;
-    margin-top: 50px;
+    margin-top: 75px;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
@@ -119,4 +124,104 @@ footer li{
     text-align:center;
     border-top: 1.5px solid #285B50;
     color:#5AB18C;
+}
+}
+@media screen and (min-width:769px) and (max-width: 992px) {
+    h1 {
+        color:rgba(90, 150, 177, 1);
+        font-size: 120px;
+        height:160px;
+        font-family: Vollkorn;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height:134px;
+        justify-content: center;
+        margin: 0px 35px;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width:992px){
+    #navigation1{
+        width:90vw;
+        height:0px;
+        clear:both;
+        display:flex;
+        overflow:hidden;
+        transition: height .5s;
+        flex-direction: column;
+    }
+    label img{
+        height: 80px;
+        border: 1px solid #5A96B1;
+        object-fit:contain;
+        width:90vw;
+    }
+    input{
+        display: none;
+    }
+    input#hamburger1:checked + #navigation1{
+        height:auto;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        margin: 0px 15px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav a.active{
+        background-color:rgba(40, 91, 80, 1);
+        color:rgb(255, 248, 205);
+    }
+    nav a{
+        background-color: white;
+        border: 1px solid #285B50;
+        list-style: none;
+        align-items: center;
+        text-align: center;
+        display: block;
+        font-family: Zilla Slab;
+        font-size: 28px;
+        line-height: 48px;
+        text-decoration: none;
+        color: rgba(90, 150, 177, 1);
+        padding:0px;
+        margin: 0px 2.5px;
+        transition-duration:0.5s;
+    }
+    nav .dropdowncontent{
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        height:0px;
+        width:0px;
+        flex-direction: column;
+        display: flex;
+        transition: height .5s;
+    }
+    nav .dropdown{
+        flex-direction: column;
+    }
+    nav #hamburger2:checked + .dropdowncontent{
+        height:auto;
+        width:80vw;
+    }
+    nav #hamburger3:checked + .dropdowncontent{
+        height:auto;
+        width:80vw;
+    }
+    nav #hamburger4:checked + .dropdowncontent{
+        height:auto;
+        width:80vw;
+    }
+    nav .dropdowncontent a{
+        display: block;
+    }
+    nav .dropdowncontent .active{
+        background-color: rgba(90, 150, 177, 1);
+    }
 }

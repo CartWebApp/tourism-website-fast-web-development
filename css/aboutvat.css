@@ -1,72 +1,71 @@
 article{
     justify-content: space-around;
     margin-top: 30px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left: 80px;
+    margin-right: 80px;
     display: flex;
     flex-direction:row;
-  
+}
 
-}
-article img{
-    object-fit:cover;
-    width: 45vw;
-    height: auto;
-    margin: 0px 30px;
-}
 article div{
-    width:47vw;
+    width:90vw;
+    padding: 15px;
+    align-items: center;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
     border: 1px solid #285B50;
 }
 article div h2{
+    margin-top: -3px;
     font-family: Vollkorn;
     font-size: 35px;
     line-height: 35px;
     text-align: center;
-    margin: 10px;
-    margin-top: 15px;
     color: #285B50;
 }
+article div h4{
+    margin-top: -3px;
+    text-align: center;
+}
 article div p{
-    margin: 20px;
+    margin: 10px;
     font-family: Zilla Slab;
     font-size: 25px;
     line-height: 30px;
     display: flex;
     align-items: center;
     color: #5A96B1;
+ 
 }
-article p.malice{
-    margin-top: ;
-    width: 90vw;
-    padding:15px;
-    font-family: Zilla Slab;
-    font-size: 24px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    color: #5A96B1;
-    border-radius: 5px;
-    border: 1px solid #285B50;      
-}
+  
 
-article p.hatred{
+article p.malice{
+    height: 5vw;
     width: 90vw;
     padding:15px;
+    padding-bottom: 30px;
     font-family: Zilla Slab;
     font-size: 24px;
     line-height: 35px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     color: #5A96B1;
     border-radius: 5px;
-    border: 1px solid #285B50;      
+    border: 1px solid #285B50;    
 }
 
 img.wrath {
-height: 30vw;
+    object-fit:cover;
+    width: 20vw;
+    height: 10vw;
+    margin: 0px 30px;
+}
+
+#hatred {
+    margin: 15px;
+    width: 20vw;
 
 }
+
