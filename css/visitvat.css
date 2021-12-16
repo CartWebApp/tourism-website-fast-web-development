@@ -83,7 +83,7 @@ article section p:last-of-type{
     font-size: 12px;
 }
 
-label{
+form.visitform label{
     color:white;
     text-align: center;
     display: block;
@@ -93,11 +93,11 @@ label{
     border: 1px solid black;
     border-radius: 20px;
 }
-input:checked + label{
+form.visitform input:checked + label{
     background-color: rgba(90, 150, 177, 1);
     color:rgb(255, 248, 205);
 }
-form{
+form.visitform{
     margin-top:auto;
     margin-left:auto;
     margin-bottom:15px;

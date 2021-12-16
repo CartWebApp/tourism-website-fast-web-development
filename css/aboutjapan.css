@@ -13,17 +13,17 @@ article div p{
 
 article div h2{
 text-align: center;
-font-size: 35px;
+font-size: 22px;
 
 }
 
 .centerText {
     text-align: center;
     color:   rgba(74, 142, 170, 1);
-    font-size: x-large;
+    font-size: 22px;
 }
 
 .color{
    color:  rgba(74, 142, 170, 1);
-   font-size: x-large;
+   font-size: 22px;
 }

@@ -12,19 +12,23 @@
     <header>
         <h1>Hamburger</h1>
         <nav>
-            <div>
+            <label class="cringe" for="hamburger1"><img src="../img/killme.png" alt="Navigation Burger" height="80"></label>
+            <input  class="cringe" type="checkbox" id="hamburger1">
+            <div id="navigation1">
                 <a href="../index.html">Home</a>
                 <a href="../destinations.html">Destinations</a>
                 <div class="dropdown">
-                    <a class="dropdownbutton">About</a>
-                    <div class="dropdowncontent">
-                        <a href="../about/aboutukraine.html">Ukraine</a>
-                        <a href="../about/aboutvc.html">Vatican City</a>
-                        <a href="../about/aboutjapan.html">Japan</a>
-                    </div>
-                </div>                    
-                <div class="dropdown">
-                    <a class="dropdownbutton">Discover</a>
+                    <label for="hamburger2"><a class="dropdownbutton">About</a></label>
+                    <input class="cringe" type="checkbox" id="hamburger2">
+                        <div class="dropdowncontent">
+                            <a href="../about/aboutukraine.html">Ukraine</a>
+                            <a href="../about/aboutvc.html">Vatican City</a>
+                            <a href="../about/aboutjapan.html">Japan</a>
+                        </div>
+                </div>
+                <div class="dropdown">           
+                <label for="hamburger3"><a class="dropdownbutton">Discover</a></label>
+                <input class="cringe" type="checkbox" id="hamburger3">
                     <div class="dropdowncontent">
                         <a href="../discover/discukraine.html">Ukraine</a>
                         <a href="../discover/discvc.html">Vatican City</a>
@@ -32,16 +36,17 @@
                     </div>
                 </div>                    
                 <div class="dropdown">
-                    <a class="dropdownbutton">Visit</a>
+                    <label for="hamburger4"><a class="dropdownbutton">Visit</a></label>
+                    <input class="cringe" type="checkbox" id="hamburger4">
                     <div class="dropdowncontent">
-                        <a class="active" href="visitukraine.html">Ukraine</a>
+                        <a class="active" href="visit/visitukraine.html">Ukraine</a>
                         <a href="visitvc.html">Vatican City</a>
                         <a href="visitjapan.html">Japan</a>
                     </div>
                 </div>
             </div>
         </nav>
-        <img src="../img/" alt="Header Image" height="360">
+        <img class="head" src="../img/kharkivpalace.jpg" alt="Header Image" height="360">
     </header>
     <form>
         <h3>Flights to Ukraine</h3>
@@ -65,7 +70,7 @@
         </select> 
     </form>
     <h3>Hotels in Kiev</h3>
-    <p>Kiev being the capital and most populous city of Ukraine, the city is full of hotels for travelers </p>
+    <p>Kiev being the capital and most populous city of Ukraine, the city is full of hotels for travelers.</p>
     <br>
     <br>
     <br>
@@ -78,9 +83,9 @@
                     <p>5 Star Hotel</p>
                     <p>Starting at 270$/Night</p>
                     <p>11 Minute Drive</p>
-                    <form>
-                        <input type="checkbox" id="11mirrorscheck">
-                        <label for="11mirrorscheck">I Like this Place!</label>
+                    <form class="visitform">
+                        <input class="visitform" type="checkbox" id="11mirrorscheck">
+                        <label class="visitform" for="11mirrorscheck">I Like this Place!</label>
                     </form>
                 </div>
             </section>
@@ -91,9 +96,9 @@
                     <p>5 Star Hotel</p>
                     <p>Starting at 1000$/Night</p>
                     <p>23 Minute Drive</p>
-                    <form>
-                        <input type="checkbox" id="kharkivpalacecheck">
-                        <label for="kharkivpalacecheck">I Like this Place!</label> 
+                    <form class="visitform">
+                        <input class="visitform" type="checkbox" id="kharkivpalacecheck">
+                        <label class="visitform" for="kharkivpalacecheck">I Like this Place!</label> 
                     </form>
                 </div>
             </section>
